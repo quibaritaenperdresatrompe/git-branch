@@ -32,7 +32,7 @@ Use `git-branch` to manage git branches on interactive mode.
 Use `bbuild` to generate a binary output:
 
 ```bash
-rm -rf bin && mkdir bin && bbuild src/index.sh bin/git-branch
+bbuild src/index.sh bin/git-branch
 ```
 
 ### Run
